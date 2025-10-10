@@ -4,21 +4,79 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <title>Bikcraft - Bicicletas Eletricas</title>
+  <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <nav>
-    <img src="/img/bikcraft.svg" alt="">
-    <ul>
-      <li><a href="">Bicicletas</a></li>
-      <li><a href="">Seguros</a></li>
-      <li><a href="">Contato</a></li>
-    </ul>
+  <header class="header-bg">
+    <div class="header container">
+      <a class="marca" href="./">
+        <img src="/img/bikcraft.svg" alt="">
+      </a>
 
-  </nav>
+      <nav aria-label="primaria">
+        <ul class="header-menu">
+          <li><a href="./bicicletas.html">Bicicletas</a></li>
+          <li><a href="./seguros.html">Seguros</a></li>
+          <li><a href="./contato.html"">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class=" intro-bg">
+              <div class="intro container">
+                <div class="conteudo-intro">
+                  <h1 class="font-1-xxl">Bicicletas feitas sobre medida<span class="ponto-amarelo">.</span></h1>
+
+                  <p class="font-2-l">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
+
+                  <a class="btn-amarelo font-1-m-b" href="">selecione a sua</a>
+                </div>
+                <div>
+                  <img src="/img/fotos/introducao.jpg" alt="">
+                </div>
+              </div>
+              </main>
+
+              <article class="bicicletas-lista">
+                <h2 class="font-1-xxl container" >escolha a sua<span class="ponto-amarelo">.
+                  </span></h2>
+                <ul>
+                  <li>
+                    <a href="./bicicletas/magic-might.html">
+                      <img src="/img/bicicletas/magic-home.jpg" alt="">
+                      <h3 class="font-1-xl c11">Magic Might</h3>
+                      <span class="font-2-m c8">R$ 2499</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./bicicletas/nimbus-stark.html">
+                      <img src="/img/bicicletas/nimbus-home.jpg" alt="">
+                      <h3 class="font-1-xl c11">Nimbus Stark</h3>
+                      <span class="font-2-m c8">R$ 4999</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./bicicletas/nebula-cosmic.html">
+                      <img src="/img/bicicletas/nebula-home.jpg" alt="">
+                      <h3 class="font-1-xl c11">Nebula Cosmic</h3>
+                      <span class="font-2-m c8">R$ 3999</span>
+                    </a>
+                  </li>
+                </ul>
+
+                /
+              </article>
 </body>
+
 
 </html>
