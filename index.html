@@ -7,9 +7,15 @@
   <title>Bikcraft - Bicicletas Eletricas</title>
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
 
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./css/style.min.css">
   <link rel="preload" href="./css/style.min.css" as="style">
- 
+
+  <script>document.documentElement.classList.add('js');</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -31,11 +37,11 @@
   <main class="intro-bg">
     <div class="intro container">
       <div class="conteudo-intro">
-        <h1 class="font-1-xxl">Bicicletas feitas sob medida<span class="ponto-amarelo">.</span></h1>
-        <p class="font-2-l">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
-        <a class="btn-amarelo font-1-m-b" href="#bicicleta-lista">escolha a sua</a>
+        <h1 class="font-1-xxl fadeInDown" data-anime="200">Bicicletas feitas sob medida<span class="ponto-amarelo">.</span></h1>
+        <p class="font-2-l fadeInDown" data-anime="400">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
+        <a class="btn-amarelo font-1-m-b fadeInDown" data-anime="600" href="#bicicleta-lista">escolha a sua</a>
       </div>
-      <picture>
+      <picture data-anime="800" class="fadeInDown">
         <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
         <img src="./img/fotos/introducao.jpg" width="1280" height="1600" alt="Bicicleta elétrica preta.">
       </picture>
@@ -170,9 +176,9 @@
         </ul>
         <div class="footer-redes">
 
-          <a href=""><img src="/img/redes/instagram.svg" width="32" height="32" alt="">Instagram</a>
-          <a href=""><img src="/img/redes/facebook.svg" width="32" height="32" alt="">Facebook</a>
-          <a href=""><img src="/img/redes/youtube.svg" width="32" height="32" alt="">Youtube</a>
+          <a href=""><img src="/img/redes/instagram.svg" width="32" height="32" alt=""></a>
+          <a href=""><img src="/img/redes/facebook.svg" width="32" height="32" alt=""></a>
+          <a href=""><img src="/img/redes/youtube.svg" width="32" height="32" alt=""></a>
         </div>
       </div>
 
@@ -190,6 +196,8 @@
       <p class="footer-direitos font-2-m c6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="/js/plugins/simple-anime.js"></script>
+  <script src="/js/script.js"></script>
 </body>
 
 </html>
